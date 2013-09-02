@@ -1,6 +1,6 @@
 # RackStripClientIp
 
-TODO: Write a gem description
+Rack middleware to strip the Client-Ip HTTP header.  This is intended to prevent a spoofed Client-Ip header from triggering an IpSpoofAttackError exception.
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Rails
+
+Add the gem to the Gemfile as above, and it will automatically add itself to the middleware stack.
+
+### Other rack applications
+
+Add the gem to the Gemfile, and add it to the middleware stack.  e.g.
+
+    use RackStripClientIp
+
 
 ## Contributing
 

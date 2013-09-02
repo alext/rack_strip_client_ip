@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alex@tomlins.org.uk"]
   spec.description   = %q{rack middleware to remote Client-IP headers.  This is to prevent IpSpoofAttackErrors in a Rails app}
   spec.summary       = %q{rack middleware to remote Client-IP headers}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/alext/rack_strip_client_ip"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
