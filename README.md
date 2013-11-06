@@ -26,7 +26,7 @@ Add the gem to the Gemfile as above, and it will automatically add itself to the
 
 Add the gem to the Gemfile, and add it to the middleware stack.  e.g.
 
-    use RackStripClientIp
+    use RackStripClientIp::Middleware
 
 
 ## Contributing
