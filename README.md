@@ -1,6 +1,6 @@
 # RackStripClientIp
 
-[![Build Status](https://travis-ci.org/alext/rack_strip_client_ip.png?branch=master)](https://travis-ci.org/alext/rack_strip_client_ip)
+[![CircleCI](https://circleci.com/gh/alext/rack_strip_client_ip.svg?style=shield)](https://circleci.com/gh/alext/rack_strip_client_ip)
 
 Rack middleware to strip the Client-Ip HTTP header.  This is intended to prevent a spoofed Client-Ip header from triggering an IpSpoofAttackError exception.
 
